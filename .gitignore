@@ -1,0 +1,76 @@
+# --- Python cache and build files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+MANIFEST
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_save
+*.nbconvert.ipynb
+
+# --- PyTorch / Machine Learning ---
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.tflite
+*.h5
+*.pb
+*.log
+*.npy
+*.npz
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and temp files ---
+*.log
+logs/
+tmp/
+*.tmp
+*.bak
+
+# --- Unit test / coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- Data and output ---
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+runs/
+experiments/
